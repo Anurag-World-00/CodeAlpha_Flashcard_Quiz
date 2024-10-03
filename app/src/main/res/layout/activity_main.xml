@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/space"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/questionInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Question" />
+
+    <EditText
+        android:id="@+id/answerInput"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:hint="Answer" />
+
+    <Button
+        android:id="@+id/addFlashcardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     android:background="@drawable/button"
+      android:textColor="@color/white"
+        android:text="Add Flashcard" />
+
+    <Button
+        android:textColor="@color/white"
+        android:id="@+id/startQuizButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:layout_marginBottom="30dp"
+        android:text="Start Quiz" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0" />
+</LinearLayout>
