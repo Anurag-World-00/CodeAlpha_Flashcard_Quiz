@@ -11,17 +11,19 @@
         android:id="@+id/questionInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="Question"
+        android:minHeight="48dp"
         android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        android:hint="Question" />
+        android:textColorHint="@color/white" />
 
     <EditText
         android:id="@+id/answerInput"
-        android:textColorHint="@color/white"
         android:layout_width="match_parent"
-        android:textColor="@color/white"
         android:layout_height="wrap_content"
-        android:hint="Answer" />
+        android:hint="Answer"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
 
     <Button
         android:id="@+id/addFlashcardButton"
